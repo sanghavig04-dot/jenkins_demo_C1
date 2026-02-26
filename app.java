@@ -1,14 +1,13 @@
-import java.util.Scanner;
-
 public class app {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter first number: ");
-        int a = sc.nextInt();
+        if (args.length < 2) {
+            System.out.println("Please provide two numbers.");
+            return;
+        }
 
-        System.out.print("Enter second number: ");
-        int b = sc.nextInt();
+        int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
 
         int sum = a + b;
 
