@@ -1,5 +1,5 @@
 public class Addition {
-   public static void mian(Stirng[]args){
+   public static void mian(String[]args){
     System.out.println("A+B");
    }
 }
