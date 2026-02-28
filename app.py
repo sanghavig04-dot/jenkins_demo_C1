@@ -1,15 +1,9 @@
+# Assign two numbers to variables
+num1 = 10
+num2 = 20
 
-def greet(name):
-    # Using an f-string for formatting
-    return f"Hello{name}!"
+# Add the numbers using the '+' operator and store the result
+sum_result = num1 + num2
 
-# Variable assignment
-user = "World"
-
-# Output
-print(greet(user))
-
-# List comprehension example
-fruits = ['apple''banana''cherry']
-upper_fruits = [fruit.upper() for fruit in fruits]
-print(upper_fruits)
+# Display the result using an f-string
+print(f"The sum of {num1} and {num2} is: {sum_result}")
